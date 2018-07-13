@@ -6,4 +6,7 @@ class App < Sinatra::Base
     
     "#{@user_name.reverse!}"
   end
+  
+  get 'sqaure/:number' do
+    
 end
